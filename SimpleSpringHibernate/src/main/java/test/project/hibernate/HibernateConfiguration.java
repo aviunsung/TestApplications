@@ -19,7 +19,7 @@ public class HibernateConfiguration {
 
 	@Bean
 	public AnnotationSessionFactoryBean sessionFactoryBean() {
-		
+		System.out.println("Added space");
 		Properties props = new Properties();
 		props.put("hibernate.dialect", H2Dialect.class.getName());
 		props.put("hibernate.format_sql", "true");
