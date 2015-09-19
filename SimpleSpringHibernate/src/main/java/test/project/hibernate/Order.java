@@ -17,6 +17,7 @@ import javax.persistence.Table;
 /**
  * An order.
  */
+
 @Entity
 @Table(name="T_ORDER")
 public class Order {

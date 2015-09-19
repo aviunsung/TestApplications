@@ -19,6 +19,7 @@ public class HibernateConfiguration {
 
 	@Bean
 	public AnnotationSessionFactoryBean sessionFactoryBean() {
+		
 		Properties props = new Properties();
 		props.put("hibernate.dialect", H2Dialect.class.getName());
 		props.put("hibernate.format_sql", "true");
